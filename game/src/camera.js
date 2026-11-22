@@ -115,8 +115,8 @@ export class ChaseCamera {
     }
   }
 
-  /** Mouse look while on foot. */
-  look(dx, dy) {
+  /** Mouse look while on foot. (Named lookDelta: `this.look` is the look-at Vector3.) */
+  lookDelta(dx, dy) {
     if (this.mode !== 'foot') return;
     this.footYaw = wrapAngle(this.footYaw - dx * 0.0026);
     this.footPitch = clamp(this.footPitch - dy * 0.0022, -0.75, 0.55);

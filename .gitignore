@@ -1,0 +1,26 @@
+# Dependencies (the game has none; these cover tooling run beside it)
+node_modules/
+
+# main.ts's hand-in output when MAKEFUN_OUTPUT_DIR points at the repo
+.output/
+out/
+/output/
+
+# The throwaway serve/shot harness writes here when given a local output dir
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Transient captures and measurement dumps from shoot.cjs / measure.cjs
+screenshots/*.png.tmp
+screenshots/.tmp/
+*.measure.json

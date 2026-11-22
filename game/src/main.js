@@ -429,7 +429,7 @@ class Game {
     input.forward = (up ? 1 : 0) - (down ? 1 : 0);
     input.right = (right ? 1 : 0) - (left ? 1 : 0);
     input.run = k.has('shift');
-    w.cameraRig.look(this.mouse.dx, this.mouse.dy);
+    w.cameraRig.lookDelta(this.mouse.dx, this.mouse.dy);
     this.mouse.dx = 0;
     this.mouse.dy = 0;
   }
