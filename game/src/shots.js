@@ -4,7 +4,7 @@
 // SHOT_READY. There is no wall-clock time and no Math.random anywhere in here,
 // so the same URL always produces the same pixels.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CITY, CAMERA } from './config.js';
 import { distance2D } from './util.js';
 import { Cruiser } from './police.js';

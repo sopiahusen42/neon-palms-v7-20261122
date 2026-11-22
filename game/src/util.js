@@ -2,7 +2,7 @@
 // three.js ships no addons here, so merging is done by hand over non-indexed
 // geometries with position, normal and uv attributes.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 
 export const clamp = (v, a, b) => (v < a ? a : v > b ? b : v);
 export const lerp = (a, b, t) => a + (b - a) * t;

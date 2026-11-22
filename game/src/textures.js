@@ -3,7 +3,7 @@
 // paving, stucco facades with window grids, awnings and shop fronts. Nothing is
 // fetched, so the page runs offline from game/ alone.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { Rng } from './rng.js';
 
 function makeCanvas(w, h) {

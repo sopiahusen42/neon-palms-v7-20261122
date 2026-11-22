@@ -3,7 +3,7 @@
 // frame is a pure function of the seeded state and the input script, which is
 // what makes the shot URLs reproducible pixel for pixel.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CITY, PLAYER, SUN, CAMERA } from './config.js';
 import { generateCity, DISTRICTS, RADIO_STATIONS } from './citygen.js';
 import { buildRoads, groundHeightAt } from './roads.js';

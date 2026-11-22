@@ -3,7 +3,7 @@
 // settles behind the tail; it also pulls back and lifts with speed, and shakes
 // on impact. The cover frame is this camera, low, close, and raked by the sun.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CAMERA } from './config.js';
 import { clamp, damp, lerpAngle, wrapAngle } from './util.js';
 

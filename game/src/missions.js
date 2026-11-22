@@ -3,7 +3,7 @@
 // crew, survive a chase, reach the boat), with a real briefing, dialogue lines
 // spoken by the cast as radio chatter, and a completion reward.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CITY } from './config.js';
 import { distance2D } from './util.js';
 

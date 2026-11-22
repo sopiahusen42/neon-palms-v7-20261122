@@ -3,7 +3,7 @@
 // the edges of the view and join the pursuit: they follow the player's lane,
 // ram, and, when the player is on foot, pull up and fire from behind cover.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CITY } from './config.js';
 import { createCarMesh, createLightBar } from './vehicles.js';
 import { Rng } from './rng.js';

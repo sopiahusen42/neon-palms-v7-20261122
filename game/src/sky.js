@@ -3,7 +3,7 @@
 // dissolves into warm haze rather than ending on a hard edge, and a glowing sun
 // disc sits low in the sun's own direction.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { SUN, SKY, FOG } from './config.js';
 import { glowTexture } from './textures.js';
 

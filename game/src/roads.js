@@ -4,7 +4,7 @@
 // (ladder crosswalks, stop bars) is merged into one mesh. A wide pale base
 // plane sits under everything so the horizon never shows through.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CITY } from './config.js';
 import { roadTexture, sidewalkTexture } from './textures.js';
 import { FlatQuads, tiledPlane, mergeGeometries, boxAt } from './util.js';

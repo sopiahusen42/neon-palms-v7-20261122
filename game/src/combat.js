@@ -3,7 +3,7 @@
 // car and pedestrian capsules plus building boxes; nothing is simulated as a
 // projectile, but each shot leaves a visible tracer for a few frames.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { PLAYER } from './config.js';
 import { Rng } from './rng.js';
 import { clamp } from './util.js';

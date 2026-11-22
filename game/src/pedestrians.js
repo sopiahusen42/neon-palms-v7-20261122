@@ -3,7 +3,7 @@
 // close, gunfire, or the player pushing through them sends them running for a
 // moment with an arm raised.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CITY } from './config.js';
 import { mergeGeometries, boxAt, clamp } from './util.js';
 import { Rng } from './rng.js';

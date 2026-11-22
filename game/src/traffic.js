@@ -3,7 +3,7 @@
 // whatever is in front of them. The same waypoint follower is reused by police
 // patrols, so a cruiser between chases behaves like any other car.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CITY, LANES } from './config.js';
 import { createCarMesh, CAR_PAINT } from './vehicles.js';
 import { Rng } from './rng.js';

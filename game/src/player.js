@@ -2,7 +2,7 @@
 // grip that lets the tail step out, steering that needs speed), and Marisol on
 // foot, walking on a camera-relative basis with a drawn pistol.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { CITY, PLAYER } from './config.js';
 import { createCarMesh, CAR_PAINT } from './vehicles.js';
 import { mergeGeometries, boxAt, clamp, damp, wrapAngle, lerpAngle } from './util.js';

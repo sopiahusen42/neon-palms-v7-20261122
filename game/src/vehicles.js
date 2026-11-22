@@ -3,7 +3,7 @@
 // colour is per-car. The wheels are separate meshes so they can steer and spin
 // without rebuilding the body.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { mergeGeometries, boxAt } from './util.js';
 import { glowTexture, shadowBlobTexture } from './textures.js';
 

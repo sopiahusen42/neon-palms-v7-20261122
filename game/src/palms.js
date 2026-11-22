@@ -2,7 +2,7 @@
 // instanced meshes (tapered trunk, merged crown of fronds) so six hundred palms
 // cost four draw calls; the long shadows across the boulevard are these trunks.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { mergeGeometries, boxAt } from './util.js';
 import { Rng } from './rng.js';
 

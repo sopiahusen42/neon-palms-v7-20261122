@@ -3,7 +3,7 @@
 // deco cornice, occasional rooftop crown, ground-floor shopfront and a striped
 // awning. One material per palette keeps the draw count low.
 
-import * as THREE from '../../vendor/three.module.min.js';
+import * as THREE from '../vendor/three.module.min.js';
 import { facadeTexture, shopfrontTexture, awningTexture } from './textures.js';
 import { facadeBox, boxAt, mergeGeometries } from './util.js';
 
